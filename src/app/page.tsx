@@ -99,9 +99,9 @@ export default function Home() {
             <h1 className="text-4xl lg:text-6xl space-x-1 m-2">
               Navigating the digital landscape for success
             </h1>
-            <div className="lg:hidden">
+            <div className="lg:hidden ">
               <Image
-                src={"/accets/illustration.svg"}
+                src={"/accets/illustration.png"}
                 width={100}
                 height={100}
                 layout="responsive"
@@ -120,9 +120,9 @@ export default function Home() {
               </Button>
             </div>
           </aside>
-          <aside className="hidden lg:block">
+          <aside className="hidden lg:flex items-center justify-center">
             <Image
-              src={"/accets/illustration.svg"}
+              src={"/accets/illustration.png"}
               width={100}
               height={100}
               layout="responsive"
