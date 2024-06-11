@@ -101,7 +101,7 @@ export default function Home() {
             </h1>
             <div className="lg:hidden ">
               <Image
-                src={"/accets/illustration.png"}
+                src={"/accets/Illustration.png"}
                 width={100}
                 height={100}
                 layout="responsive"
@@ -122,7 +122,7 @@ export default function Home() {
           </aside>
           <aside className="hidden lg:flex items-center justify-center">
             <Image
-              src={"/accets/illustration.png"}
+              src={"/accets/Illustration.png"}
               width={100}
               height={100}
               layout="responsive"
