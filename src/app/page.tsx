@@ -93,7 +93,7 @@ const cards: Cards[] = [
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <main className="flex min-h-screen flex-col items-center justify-between p-10 md:p-24">
         <div className="flex flex-row mt-3 ">
           <aside className="lg:w-[50%] p-2">
             <h1 className="text-4xl lg:text-6xl space-x-1 m-2">
@@ -185,13 +185,13 @@ export default function Home() {
           />
         </Marquee>
       </div>
-      <section className="p-24">
+      <section className="p-10 md:p-24">
         <div className="flex flex-col lg:flex-row gap-4">
           <h1 className="text-5xl  bg-[#B9FF66]  rounded-[10px] p-2 font-bold  space-x-2">
             Services
           </h1>
 
-          <p className=" text-1xl max-w-[40vw] items-center mx-5 ">
+          <p className=" text-1xl md:max-w-[40vw] items-center mx-5 ">
             At our digital marketing agency, we offer a range of services to
             help busisness grow and succees online. These services include:
           </p>
@@ -213,7 +213,7 @@ export default function Home() {
           })}
         </div>
       </section>
-      <section className="   m-20 p-10 rounded-[10px] flex flex-row bg-violet-100 ">
+      <section className="  m-5 lg:m-20 p-10 rounded-[10px] flex flex-row bg-violet-100 ">
         <div className="lg:w-[60%]">
           <h1 className="text-3xl p-3 m-4">Let’s make things happen</h1>
           <p className="text-2xl p-3 m-4">
@@ -233,18 +233,18 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="p-24 flex items-center">
+      <section className="m-10 md:p-24 flex items-center">
         <div className="flex flex-col lg:flex-row gap-4 lg:max-w-[80%]">
           <h1 className="text-5xl  bg-[#B9FF66]  rounded-[10px] p-2 font-bold  space-x-2">
             Our Working Process
           </h1>
 
-          <p className=" text-2xl max-w-[40%] items-center mx-5 ">
+          <p className=" text-2xl md:max-w-[40%] items-center mx-5 ">
             Step-by-Step Guide to Achieving Your Business Goals{" "}
           </p>
         </div>
       </section>
-      <section className="p-24 flex items-center">
+      <section className=" m-5 md:p-24 flex items-center">
         <Accordion type="multiple" className="w-[100%]  text-slate-800">
           <AccordionItem
             value="item-1"
@@ -348,7 +348,7 @@ export default function Home() {
           </AccordionItem>
         </Accordion>
       </section>
-      <section className="p-10 m-4 px-24 flex items-center">
+      <section className="p-10 m-4 md:px-24 flex items-center">
         <div className="flex flex-col lg:flex-row gap-4 lg:max-w-[80%]">
           <h1 className="text-5xl  bg-[#B9FF66]  rounded-[10px] p-2 font-bold  space-x-2">
             Team
@@ -375,7 +375,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <footer className="mx-20 p-8 rounded-tl-[20px] rounded-tr-[20px] text-gray-50 mt-4 bg-gray-900 ">
+      <footer className="m-4 md:mx-20 p-8 rounded-tl-[20px] rounded-tr-[20px] text-gray-50 mt-4 bg-gray-900 ">
         <div className="flex w-[100%] px-1  justify-around">
           <div className="flex flex-row w-[100%] justify-between h-15 md:py-2 md:mx-20 ">
             <div className="flex items-center">
@@ -453,7 +453,7 @@ export default function Home() {
               <h2>Moonstone City, Stardust State 12345</h2>
             </div>
           </div>
-          <div className="flex  p-9 m-10 justify-center items-center bg-slate-600 rounded-[90px]">
+          <div className="hidden lg:flex  p-9 m-10 justify-center items-center bg-slate-600 rounded-[90px]">
             <Input
               placeholder="email"
               className="w-[300px] p-7 m-3 font-bold text-gray-200 font-4xl"
